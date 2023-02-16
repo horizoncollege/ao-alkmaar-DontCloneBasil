@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;}
+.nav-container {
+    object-fit: contain;
+    display: flex;
+    width: 100%;
+    position: -webkit-sticky;
+    top: 0;
+    border-style: solid;
+    background-color: darkblue;
+    flex-direction: row; justify-content: space-between;}
+    .nav-container img {
+        height: 50px; width: 90px;
+        object-fit: scale-down;}
+
+.logo {margin-top: 5px;
+    width: 2%;}
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(229, 229, 229);
+    width: 50%;} 
+    .nav img{
+        height: 30px; 
+        object-fit: scale-down;} 
+        .nav p{margin-right: 10px;}
+        .nav img:hover, .nav p:hover {
+            cursor: pointer;}
+
+.profile {
+    display: flex;
+    align-items: center;}
+.progress-container{display: flex;
+    border-style: double;
+    border-radius: 4px;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(5, 223, 223);} 
+.level {
+    position: relative;
+    left: 25%; bottom: 10px; 
+    color: rgb(219, 219, 219);}
+.progress {
+    height:100%;
+    border-style: none; border-radius: 20px;
+    width:3%; 
+    background-color:  rgb(96, 184, 243);}
+    
+    .bits {
+        display: flex; align-items: center;
+        flex-direction: row;
+        color: rgb(229, 229, 229);
+        margin-left: 10px; 
+        margin-right: 10px;}
+    .bits img {height: 30px; object-fit: scale-down;}
+    .bits p{position: relative; right: 20px;}
+
+    .profile-pic img{border-style: double; border-radius: 100%;
+        background-color: rgb(230, 230, 230);
+        width: 30px; height: 30px;
+        object-fit: scale-down;}
+    .more-profile img {
+        width: 20px; height: 20px;
+        object-fit: scale-down;
+        margin-right: 10px;}
+
+.content-container{
+    margin-top: 10px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;}
+    .content{display: flex; }
+.work-container {
+    justify-content: start;
+    display: flex; 
+    flex-direction: column;}
+
+.about-container {
+    margin-left: 20px;
+    width: 300px;
+    border-style: inset;
+    border-radius: 5px;}
+    .about-text, .flower {margin: 10px;}
+    .flower img {width: 100%; object-fit: scale-down;}
+
+.work {border-style: inset;border-radius: 10px;}
+table {margin: 10px;}
+#wait {width: 100%;}
+.work table tr:first-child{color: grey; object-position: left;}
+.button{ 
+    border-radius: 5px;
+    border-style: double;
+    color: white;
+    background-color: rgb(53, 210, 53);}
+    .button:hover {cursor: pointer;}
+table, th, td{
+border-bottom: 1px solid gray; border-collapse: collapse; padding: 10px;}

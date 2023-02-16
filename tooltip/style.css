@@ -1,0 +1,15 @@
+body{z-index: -2;}
+.tooltip  {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;}
+.tooltip-content{
+    position: absolute; top: 50px;
+    width: 400px;}
+.content {z-index: 1;}
+.icon{position: absolute;left: 400px;}
+    .tooltip-content{background-color: black;
+        color: white;
+        display: none;}
+    .icon:hover + .tooltip-content{display: block;}
+    
